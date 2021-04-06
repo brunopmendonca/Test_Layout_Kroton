@@ -11,6 +11,7 @@
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
+    
 }
 
 .classButtonWhite{
@@ -21,5 +22,12 @@
     border: 1px solid #0062FF;
     box-sizing: border-box;
     border-radius: 4px;
+    
+}
+
+.Position{
+
+    
+    top: 157px;
     
 }

@@ -1,0 +1,32 @@
+.Card{
+display: flex;
+Width :600px;
+Height :241px;
+background: #FFFFFF;
+
+
+}
+
+.image{
+    width: 50%;
+}
+
+
+.Titles{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.Title2{
+    margin-top: 5px;
+}
+
+.Position{
+    margin-top: 50px;
+}
+
+
+.Titles > button{
+    align-self: flex-end;
+}
