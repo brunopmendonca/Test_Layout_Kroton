@@ -1,14 +1,31 @@
+.groupTitle1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
 .Card{
 display: flex;
 Width :600px;
 Height :241px;
-background: #FFFFFF;
-
+background: #ffffff;
 
 }
 
 .image{
+    display: flex;
     width: 50%;
+    height: 50%;
+    align-self: center;
+    padding: 20px;
+    
+}
+
+.imagePosition{
+    display: flex;
+    justify-content: center;
 }
 
 

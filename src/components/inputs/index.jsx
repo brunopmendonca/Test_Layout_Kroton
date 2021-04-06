@@ -19,16 +19,16 @@ const Inputs = () => {
                 </div>
 
                 <div className="subGroup">
-                    <text>pergunta 1 ?</text>
+                    <text>pergunta 2 ?</text>
                     <input className="campo" />
                 </div>
 
                 <div className="subGroup">
-                    <text>pergunta 1 ?</text>
+                    <text>pergunta 3 ?</text>
                     <input className="campo" />
                 </div>
 
-                <div className="subGroup">
+                <div className="buttonResearch">
                     <button className="button">nada</button>
                 </div>
 

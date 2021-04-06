@@ -1,5 +1,6 @@
 import React from "react"
 import "./style.css"
+import imagem from "../../images/whattsap1.png"
 
 
 const Header = () => {
@@ -7,8 +8,7 @@ const Header = () => {
     return (
 
         <div className="ClassHeader">
-            <img src="./images/whattsap.png" />
-            <text>Fale conosco</text>
+            <img className="logo" src={imagem} />
         </div>
     )
 

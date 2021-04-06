@@ -1,17 +1,26 @@
 import React from "react"
 import "./style.css"
 import imagem from "../../images/imagem.png"
+import Button from "../Button"
 
 
 const CardTitle4 = () => {
 
     return (
 
-        <div className="grop">
+        <div >
 
-            <div className="card">
+            <div className="cardGroup">
 
                 <img src={imagem} />
+
+                <div className="texts">
+                    <text className="text">texto.....</text>
+                    <text className="title1">Titulo</text>
+                    <div className="buttonAcess">
+                        <Button name="Acessar" classButton="classButtonWhite " />
+                    </div>
+                </div>
 
             </div>
 
