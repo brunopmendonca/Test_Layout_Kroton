@@ -1,0 +1,25 @@
+.classButtonBlue{
+    height: 50.20833206176758px;
+    width: 265.009033203125px;
+    left: 0px;
+    top: 0px;
+    border-radius: 4px;
+    background: #0067F6;
+    color:#F1F1F1;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.classButtonWhite{
+    Width :260px;
+    Height :40px;
+    border-radius: 4px;
+    background: #FFFFFF;
+    border: 1px solid #0062FF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    
+}
