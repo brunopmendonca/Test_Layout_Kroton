@@ -14,7 +14,7 @@ const CardTitle4 = () => {
 
                 <img src={imagem} />
 
-                <div className="texts">
+                <div className="textGroup">
                     <text className="text">texto.....</text>
                     <text className="title1">Titulo</text>
                     <div className="buttonAcess">

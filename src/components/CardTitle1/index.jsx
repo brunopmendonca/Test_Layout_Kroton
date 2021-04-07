@@ -12,25 +12,7 @@ const CardTitle = () => {
     return (
 
         <div className="groupTitle1">
-            <div className="Card">
-
-                <div className="image">
-
-                    <img className="imagePosition" src={Img1} />
-
-                </div>
-
-                <div className="Titles">
-                    <text >Titulo 1</text>
-                    <text className="Title2" >
-                        Content.. ... content. ... content.. .. content.. .. content .. content....content....content....content....content.... content....content....
-                    </text>
-                    <Button name="Botão para detalhes... " classButton="classButtonBlue Position"  ></Button>
-                </div>
-
-            </div>
-
-            <div className="Card">
+            <div className="card">
 
                 <div className="image">
 
@@ -38,11 +20,35 @@ const CardTitle = () => {
 
                 </div>
 
-                <div className="Titles">
-                    <text >Titulo 1</text>
-                    <text className="Title2" >
-                        Content.. ... content. ... content.. .. content.. .. content .. content....content....content....content....content.... content....content....
-                    </text>
+                <div className="titles">
+                    <text className="title1" >Titulo 1</text>
+                    <div className="subtitle1">
+                        <text  >
+                            Content.. ... content. ... content.. .. content.. .. content .. content....content
+                            ....content....content....content.... content....content....
+                        </text>
+                    </div>
+                    <Button name="Botão para detalhes... " classButton="classButtonBlue Position"  ></Button>
+                </div>
+
+            </div>
+
+            <div className="card">
+
+                <div className="image">
+
+                    <img className="imagePosition" src={Img2} />
+
+                </div>
+
+                <div className="titles">
+                    <text className="title1" >Titulo 1</text>
+                    <div className="subtitle1">
+                        <text  >
+                            Content.. ... content. ... content.. .. content.. .. content .. content....content
+                            ....content....content....content.... content....content....
+                        </text>
+                    </div>
                     <Button name="Botão para detalhes... " classButton="classButtonBlue Position"  ></Button>
                 </div>
 

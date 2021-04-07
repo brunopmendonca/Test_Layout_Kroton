@@ -1,8 +1,6 @@
 .classButtonBlue{
-    height: 50.20833206176758px;
-    width: 265.009033203125px;
-    left: 0px;
-    top: 0px;
+    height: 50px;
+    width: 265px;
     border-radius: 4px;
     background: #0067F6;
     color:#F1F1F1;
@@ -11,6 +9,7 @@
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
+    margin-top: 30px;
     
 }
 
@@ -22,6 +21,7 @@
     border: 1px solid #0062FF;
     box-sizing: border-box;
     border-radius: 4px;
+    
     
 }
 

@@ -1,6 +1,20 @@
 .conjunto{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
     
 }
+
+@media(max-width:600px){
+    .conjunto{
+        display: flex;
+        justify-content:center;
+        margin-bottom: 20px;
+       
+        
+    }
+
+   
+}
+
